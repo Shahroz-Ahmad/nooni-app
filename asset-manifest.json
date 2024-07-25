@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Nooni-App/static/css/main.32c7e1c1.css",
+    "main.js": "/Nooni-App/static/js/main.ee8f7ff1.js",
+    "static/js/453.17af5955.chunk.js": "/Nooni-App/static/js/453.17af5955.chunk.js",
+    "static/media/blog-2-1174x862.jpg": "/Nooni-App/static/media/blog-2-1174x862.5b46407b82f7ad295a81.jpg",
+    "static/media/slide-1-home1-2.png": "/Nooni-App/static/media/slide-1-home1-2.bc6a31cf31ea65487ee5.png",
+    "static/media/slide-3-home1-1.png": "/Nooni-App/static/media/slide-3-home1-1.17ea18ebbb73a62620f3.png",
+    "static/media/slide-2-home1-1.png": "/Nooni-App/static/media/slide-2-home1-1.940580ba9b1db0288a55.png",
+    "static/media/banner-2.jpg": "/Nooni-App/static/media/banner-2.06759e8aca373ae9d2de.jpg",
+    "static/media/banner-1.jpg": "/Nooni-App/static/media/banner-1.6217e84cafdc4b8a1415.jpg",
+    "static/media/banner-0.jpg": "/Nooni-App/static/media/banner-0.563d661058f2de557cc2.jpg",
+    "index.html": "/Nooni-App/index.html",
+    "main.32c7e1c1.css.map": "/Nooni-App/static/css/main.32c7e1c1.css.map",
+    "main.ee8f7ff1.js.map": "/Nooni-App/static/js/main.ee8f7ff1.js.map",
+    "453.17af5955.chunk.js.map": "/Nooni-App/static/js/453.17af5955.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32c7e1c1.css",
+    "static/js/main.ee8f7ff1.js"
+  ]
+}
