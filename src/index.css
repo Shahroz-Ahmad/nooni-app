@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Inter", sans-serif;
+}
+.headerimg{
+    animation: header 10s linear 2s infinite ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+@keyframes header { 
+    0%{
+
+        transform: translateY(10px);
+        background-image: url('../public/slide-1-home1-2.png');
+    }
+    25%{
+        transform: translateY(-10px);
+        
+        background-image: url('../public/slide-1-home1-2.png');
+    }
+    30%{
+        transform: translateY(-10px);
+        background-image: url('../public/slide-2-home1-1.png');
+        
+    }
+    75%{
+        transform: translateY(10px);
+        background-image: url('../public/slide-2-home1-1.png');
+    }
+    80%{
+        transform: translateY(10px);
+        background-image: url('../public/slide-3-home1-1.png');
+        
+    }
+    100%{
+        background-image: url('../public/slide-3-home1-1.png');
+        transform: translateY(-10px);
+
+    }
+    
+}
+@media (max-width: 600px) {
+    .headerimg {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .headerimg {
+        height: 500px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .headerimg {
+        height: 709px;
+        width: 690px;
+    }
+}
+
+.banner1{
+    background-image: url("../public/banner-0.jpg");
+    background-size: 90% 90%;
+    height: 60vh;
+    width: 100%;
+    transition-duration: .4s;
+}
+.banner1:hover{
+    background-size: 95% 95%;
+    transition-duration: .4s;
+}
+.banner2{
+    height: 100%;
+    width:100%;
+    background-image: url(../public/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner3{
+    background-image: url(../public/banner-1.jpg);
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+
+}
+/* .fetchDiv::after{
+    content:'Click To Check More';
+    @apply absolute bg-stone-100 w-full h-16 text-center pt-5 font-bold opacity-0 duration-300 ;
+    left: 0;
+    bottom: 0;
+}
+.fetchDiv:hover::after{
+    @apply opacity-100 cursor-pointer
+} */
+.blogimg{
+    background-image: url(../public/blog-2-1174x862.jpg);
+    background-size: 200% 100%;
+    
+}
+.bann::after {
+    content: '';
+    @apply absolute -top-2 -left-2 h-[97.8%] w-[97.8%] border-t-2 border-l-2 border-white ; /* Adjust opacity as needed */
+    z-index: 1; /* Ensure it appears behind content */
+  }
+  .bann:hover::after{
+    @apply top-2 left-2 duration-700
+  }
